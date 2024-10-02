@@ -1,0 +1,21 @@
+[project]
+name = "example_package_pipeacosta"
+version = "0.0.1"
+authors = [
+  { name="Andres Acosta", email="pipeacosta@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.10"',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
